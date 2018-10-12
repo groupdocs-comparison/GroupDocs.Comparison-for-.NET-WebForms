@@ -161,6 +161,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Comparison.aspx" />
+    <Content Include="Resources\common\js\es6-promise.auto.js" />
+    <Content Include="Resources\common\js\jquery.initialize.min.js" />
     <Content Include="Resources\comparison\css\all.css" />
     <Content Include="Resources\comparison\css\comparison.css" />
     <Content Include="Resources\comparison\css\comparison.mobile.css" />
