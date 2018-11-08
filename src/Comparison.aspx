@@ -7,7 +7,9 @@
 <html>
 <head>
     <title>Comparison for .NET Web Forms</title>
-  <link type="text/css" rel="stylesheet" href="/resources/comparison/css/all.css" />
+    <link type="text/css" rel="stylesheet" href="/resources/comparison/css/all.css" />
+    <link type="text/css" rel="stylesheet" href="/resources/common/css/all.min.css">
+    <link type="text/css" rel="stylesheet" href="/resources/common/css/v4-shims.min.css">
     <link type="text/css" rel="stylesheet" href="/resources/common/css/swiper.min.css">
     <link type="text/css" rel="stylesheet" href="/resources/common/css/circle-progress.css" />
     <link type="text/css" rel="stylesheet" href="/resources/viewer/css/viewer.css" />
