@@ -69,7 +69,15 @@ namespace GroupDocs.Comparison.WebForms.AppDomainGenerator
             // Initiate license class
             var obj = (GroupDocs.Comparison.Common.License.License)Activator.CreateInstance(type);
             // Set license
-            obj.SetLicense(globalConfiguration.Application.LicensePath);
+            SetLicense(obj);
+        }
+
+        private void SetLicense(dynamic obj)
+        {
+            if (!String.IsNullOrEmpty(globalConfiguration.Application.LicensePath))
+            {
+                obj.SetLicense(globalConfiguration.Application.LicensePath);
+            }
         }
     }
 }

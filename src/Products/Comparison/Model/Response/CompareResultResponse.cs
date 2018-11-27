@@ -21,7 +21,7 @@ namespace GroupDocs.Comparison.WebForms.Products.Comparison.Model.Response
         public string guid;
 
         /// <summary>
-        /// Extension of compared files, for saving total results
+        /// Extension of compared files, for saving Comparison results
         /// </summary>
         public string extension;
     }

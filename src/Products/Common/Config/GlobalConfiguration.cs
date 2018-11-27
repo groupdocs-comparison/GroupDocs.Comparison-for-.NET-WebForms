@@ -8,8 +8,8 @@ namespace GroupDocs.Comparison.WebForms.Products.Common.Config
     public class GlobalConfiguration
     {
         public ServerConfiguration Server;
-        public ApplicationConfiguration Application;      
-        public CommonConfiguration Common;      
+        public ApplicationConfiguration Application;       
+        public CommonConfiguration Common;
         public ComparisonConfiguration Comparison;
 
         /// <summary>
@@ -18,8 +18,8 @@ namespace GroupDocs.Comparison.WebForms.Products.Common.Config
         public GlobalConfiguration()
         {
             Server = new ServerConfiguration();
-            Application = new ApplicationConfiguration();           
-            Common = new CommonConfiguration();          
+            Application = new ApplicationConfiguration();          
+            Common = new CommonConfiguration();           
             Comparison = new ComparisonConfiguration();
         }
     }
