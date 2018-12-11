@@ -1,6 +1,6 @@
 ﻿using GroupDocs.Comparison.WebForms.Products.Common.Util.Parser;
 using System;
-using System.Configuration;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
