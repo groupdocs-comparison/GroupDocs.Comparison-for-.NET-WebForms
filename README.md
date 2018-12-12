@@ -1,5 +1,5 @@
 # GroupDocs.Comparison for .NET Web.Forms Example
-###### version 1.4.0
+###### version 1.5.0
 
 [![Build status](https://ci.appveyor.com/api/projects/status/0hr248kixtaay7d4/branch/master?svg=true)](https://ci.appveyor.com/project/egorovpavel/groupdocs-comparison-for-net-webforms/branch/master)
 
