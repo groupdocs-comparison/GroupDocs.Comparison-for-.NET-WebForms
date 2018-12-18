@@ -8,7 +8,7 @@ namespace GroupDocs.Comparison.WebForms.Products.Common.Config
     public class GlobalConfiguration
     {
         public ServerConfiguration Server;
-        public ApplicationConfiguration Application;       
+        public ApplicationConfiguration Application;
         public CommonConfiguration Common;
         public ComparisonConfiguration Comparison;
 
@@ -16,10 +16,10 @@ namespace GroupDocs.Comparison.WebForms.Products.Common.Config
         /// Get all configurations
         /// </summary>
         public GlobalConfiguration()
-        {
+        {            
             Server = new ServerConfiguration();
-            Application = new ApplicationConfiguration();          
-            Common = new CommonConfiguration();           
+            Application = new ApplicationConfiguration();
+            Common = new CommonConfiguration();
             Comparison = new ComparisonConfiguration();
         }
     }

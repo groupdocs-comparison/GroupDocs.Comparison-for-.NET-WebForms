@@ -14,7 +14,7 @@ namespace GroupDocs.Comparison.WebForms.Products.Comparison.Config
         public string FilesDirectory = "DocumentSamples/Comparison";
         public string ResultDirectory = "DocumentSamples/Comparison/Compared";
         public int PreloadResultPageCount = 0;
-        public bool isMultiComparing = true;
+        public bool isMultiComparing = true;      
 
         /// <summary>
         /// Constructor
@@ -39,11 +39,11 @@ namespace GroupDocs.Comparison.WebForms.Products.Comparison.Config
             {
                 ResultDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, ResultDirectory);
                 if (!Directory.Exists(ResultDirectory))
-                {
+                {                    
                     Directory.CreateDirectory(ResultDirectory);
                 }
             }
-            PreloadResultPageCount = valuesGetter.GetIntegerPropertyValue("preloadResultPageCount", PreloadResultPageCount);
+            PreloadResultPageCount = valuesGetter.GetIntegerPropertyValue("preloadResultPageCount", PreloadResultPageCount);               
             isMultiComparing = valuesGetter.GetBooleanPropertyValue("multiComparing", isMultiComparing);
         }
 
