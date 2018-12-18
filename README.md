@@ -2,7 +2,7 @@
 ###### version 1.6.0
 
 [![Build status](https://ci.appveyor.com/api/projects/status/0hr248kixtaay7d4/branch/master?svg=true)](https://ci.appveyor.com/project/egorovpavel/groupdocs-comparison-for-net-webforms/branch/master)
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3256f4227c354b61a361136ff079ce79)](https://www.codacy.com/app/GroupDocs/GroupDocs.Comparison-for-.NET-WebForms?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=groupdocs-comparison/GroupDocs.Comparison-for-.NET-WebForms&amp;utm_campaign=Badge_Grade)
 
 ## System Requirements
 - .NET Framework 4.5
