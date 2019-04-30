@@ -10,9 +10,9 @@
 - Visual Studio 2015
 
 
-## Compare documents with Java API
+## Compare documents with .NET API
 
-**GroupDocs.Comparison for Java** is a library that allows you to **compare PDF, DOCX, PPT, XLS**, and over 90 other document formats. With GroupDocs.Comparison for Java you will be able to compare two or more files perform style and text comparison and generate a detailed report with changes in documents.
+**GroupDocs.Comparison for .NET** is a library that allows you to **compare PDF, DOCX, PPT, XLS**, and over 90 other document formats. With GroupDocs.Comparison you will be able to compare two or more files perform style and text comparison and generate a detailed report with changes in documents.
 
 This application allows you to compare multiple documents and can be used as a standalone application or integrated as part of your project.
 
