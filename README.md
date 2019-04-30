@@ -9,7 +9,6 @@
 - .NET Framework 4.5
 - Visual Studio 2015
 
-
 ## Compare documents with .NET API
 
 **GroupDocs.Comparison for .NET** is a library that allows you to **compare PDF, DOCX, PPT, XLS**, and over 90 other document formats. With GroupDocs.Comparison you will be able to compare two or more files perform style and text comparison and generate a detailed report with changes in documents.
@@ -18,10 +17,8 @@ This application allows you to compare multiple documents and can be used as a s
 
 **Note:** without a license application will run in trial mode, purchase [GroupDocs.Comparison for .NET license](https://purchase.groupdocs.com/order-online-step-1-of-8.aspx) or request [GroupDocs.Comparison for .NET temporary license](https://purchase.groupdocs.com/temporary-license).
 
-
 ## Demo Video
 Coming soon
-
 
 ## Features
 #### GroupDocs.Comparison
@@ -83,7 +80,6 @@ For all methods above you can adjust settings in `configuration.yml`. By default
 | **`defaultDocument`**              | String  |                   | Absolute path to default document that will be loaded automaticaly.                                                                          |
 | **`preloadPageCount`**             | Integer |        `0`        | Indicate how many pages from a document should be loaded, remaining pages will be loaded on page scrolling.Set `0` to load all pages at once |
 | **`multiComparing`**               | String  |      `true`       | Enable/disable multi comparing feature                                                                                                       |
-
 ## License
 The MIT License (MIT). 
 
