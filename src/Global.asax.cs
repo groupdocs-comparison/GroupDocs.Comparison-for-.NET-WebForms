@@ -14,7 +14,7 @@ namespace GroupDocs.Comparison.WebForms
             // Set GroupDocs products assemblies names           
             string comparisonAssemblyName = "GroupDocs.Comparison.dll";           
             // set GroupDocs.Comparison license
-            DomainGenerator comparisonDomainGenerator = new DomainGenerator(comparisonAssemblyName, "GroupDocs.Comparison.Common.License.License");
+            DomainGenerator comparisonDomainGenerator = new DomainGenerator(comparisonAssemblyName, "GroupDocs.Comparison.License");
             comparisonDomainGenerator.SetComparisonLicense(comparisonDomainGenerator.CurrentType);
 
             // Code that runs on application startup
