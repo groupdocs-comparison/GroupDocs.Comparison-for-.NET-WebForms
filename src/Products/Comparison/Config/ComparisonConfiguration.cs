@@ -9,7 +9,7 @@ namespace GroupDocs.Comparison.WebForms.Products.Comparison.Config
     /// <summary>
     /// CommonConfiguration
     /// </summary>
-    public class ComparisonConfiguration
+    public class ComparisonConfiguration : CommonConfiguration
     {
         private string FilesDirectory = "DocumentSamples/Comparison";
         private string ResultDirectory = "DocumentSamples/Comparison/Compared";
