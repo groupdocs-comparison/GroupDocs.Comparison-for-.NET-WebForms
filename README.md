@@ -1,3 +1,4 @@
+![GroupDocs.Comparison](https://raw.githubusercontent.com/groupdocs-comparison/groupdocs-comparison.github.io/master/resources/image/banner.png "GroupDocs.Comparison")
 # GroupDocs.Comparison for .NET Web.Forms Example
 ###### version 1.7.0
 
@@ -18,7 +19,12 @@ This application allows you to compare multiple documents and can be used as a s
 **Note:** without a license application will run in trial mode, purchase [GroupDocs.Comparison for .NET license](https://purchase.groupdocs.com/order-online-step-1-of-8.aspx) or request [GroupDocs.Comparison for .NET temporary license](https://purchase.groupdocs.com/temporary-license).
 
 ## Demo Video
-Coming soon
+
+<p align="center">
+  <a title="Document comparison for JAVA " href="https://www.youtube.com/watch?v=82RuvtV2qpw"> 
+    <img src="https://raw.githubusercontent.com/groupdocs-comparison/groupdocs-comparison.github.io/master/resources/image/comparison.gif" width="100%" style="width:100%;">
+  </a>
+</p>
 
 ## Features
 #### GroupDocs.Comparison

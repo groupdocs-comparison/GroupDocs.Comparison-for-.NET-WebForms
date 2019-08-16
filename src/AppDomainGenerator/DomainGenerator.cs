@@ -67,7 +67,7 @@ namespace GroupDocs.Comparison.WebForms.AppDomainGenerator
         public void SetComparisonLicense(Type type)
         {
             // Initiate license class
-            var obj = (GroupDocs.Comparison.Common.License.License)Activator.CreateInstance(type);
+            var obj = (GroupDocs.Comparison.License)Activator.CreateInstance(type);
             // Set license
             SetLicense(obj);
         }
