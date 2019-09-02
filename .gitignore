@@ -11,4 +11,8 @@ src/Resources/*
 node_modules
 src/package-lock.json
 src/client/package-lock.json
+src/DocumentSamples
+!src/DocumentSamples/Comparison/.gitkeep
+src/Licenses
+!src/Licenses/.gitkeep
 /src/node
