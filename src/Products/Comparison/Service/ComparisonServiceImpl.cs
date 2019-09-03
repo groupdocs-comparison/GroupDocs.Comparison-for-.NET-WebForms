@@ -302,7 +302,7 @@ namespace GroupDocs.Comparison.WebForms.Products.Comparison.Service
                 pageData.SetData(page.GetData());
                 pageImages.Add(pageData);
             }
-            compareResultResponse.SetPages(pageImages);
+            compareResultResponse.SetPages(pages);
             compareResultResponse.SetGuid(resultGuid);
             return compareResultResponse;
         }
