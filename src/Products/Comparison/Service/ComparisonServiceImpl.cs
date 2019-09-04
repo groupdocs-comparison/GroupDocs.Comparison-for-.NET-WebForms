@@ -295,13 +295,7 @@ namespace GroupDocs.Comparison.WebForms.Products.Comparison.Service
             //save all results in file
             string resultGuid = SaveFile(compareResultResponse.GetGuid(), compareResult.GetStream(), ext);
             List<PageDescriptionEntity> pages = LoadDocumentPages(resultGuid, "").GetPages();
-            List<PageDescriptionEntity> pageImages = new List<PageDescriptionEntity>();
-            foreach (PageDescriptionEntity page in pages)
-            {
-                PageDescriptionEntity pageData = new PageDescriptionEntity();
-                pageData.SetData(page.GetData());
-                pageImages.Add(pageData);
-            }
+
             compareResultResponse.SetPages(pages);
             compareResultResponse.SetGuid(resultGuid);
             return compareResultResponse;
