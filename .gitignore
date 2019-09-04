@@ -17,3 +17,4 @@ src/DocumentSamples
 src/Licenses
 !src/Licenses/.gitkeep
 /src/node
+/src/GroupDocs.Comparison.WebForms.csproj.user
