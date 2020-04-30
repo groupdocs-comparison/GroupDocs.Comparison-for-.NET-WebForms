@@ -2,8 +2,6 @@
 using GroupDocs.Comparison.WebForms.Products.Comparison.Model.Request;
 using GroupDocs.Comparison.WebForms.Products.Comparison.Model.Response;
 using System.Collections.Generic;
-using System.IO;
-using System.Web;
 
 namespace GroupDocs.Comparison.WebForms.Products.Comparison.Service
 {
@@ -20,26 +18,11 @@ namespace GroupDocs.Comparison.WebForms.Products.Comparison.Service
         CompareResultResponse Compare(CompareRequest compareRequest);
 
         /// <summary>
-        ///  Load document pages as images
-        /// </summary>
-        /// <param name="path">string</param>
-        /// <param name="password">string</param>
-        /// <returns>LoadDocumentEntity</returns>
-        LoadDocumentEntity LoadDocumentPages(string path, string password);
-
-        /// <summary>
         ///  Load document page as images
         /// </summary>
         /// <param name="postedData">PostedDataEntity</param>
         /// <returns>LoadDocumentEntity</returns>
         PageDescriptionEntity LoadDocumentPage(PostedDataEntity postedData);
-
-        /// <summary>
-        ///  Load document info
-        /// </summary>
-        /// <param name="postedData">PostedDataEntity</param>
-        /// <returns>LoadDocumentEntity</returns>
-        LoadDocumentEntity LoadDocumentInfo(PostedDataEntity postedData);
 
         /// <summary>
         /// Check format files for comparing
