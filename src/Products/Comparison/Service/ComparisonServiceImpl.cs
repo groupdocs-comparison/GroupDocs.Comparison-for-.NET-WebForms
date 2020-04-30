@@ -254,7 +254,7 @@ namespace GroupDocs.Comparison.WebForms.Products.Comparison.Service
             return comparer;
         }
 
-        private CompareResultResponse GetCompareResultResponse(ChangeInfo[] changes, string resultGuid)
+        private static CompareResultResponse GetCompareResultResponse(ChangeInfo[] changes, string resultGuid)
         {
             CompareResultResponse compareResultResponse = new CompareResultResponse();
             compareResultResponse.SetChanges(changes);
