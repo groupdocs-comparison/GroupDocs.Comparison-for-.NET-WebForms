@@ -1,4 +1,4 @@
-﻿using GroupDocs.Comparison.Changes;
+﻿using GroupDocs.Comparison.Result;
 using GroupDocs.Comparison.WebForms.Products.Common.Entity.Web;
 using Newtonsoft.Json;
 using System.Collections.Generic;
